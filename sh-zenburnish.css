@@ -33,20 +33,20 @@
 
 .syntaxhighlighter
 {
-	background-color: #0F192A !important;
+	background-color: #3f3f3f !important;
 }
 
 /* Gutter line numbers */
 .syntaxhighlighter .line .number
 {
-	color: #38566F !important;
+	color: #9fafaf !important;
 }
 
 /* Add border to the lines */
 .syntaxhighlighter .line .content
 {
-	border-left: 3px solid #435A5F !important;
-	color: #B9BDB6 !important;
+	border-left: 3px solid #262626 !important;
+	color: #ffffff !important;
 }
 
 .syntaxhighlighter.printing .line .content 
@@ -57,19 +57,19 @@
 /* First line */
 .syntaxhighlighter .line.alt1
 {
-	background-color: #0F192A !important;
+	background-color: #3f3f3f !important;
 }
 
 /* Second line */
 .syntaxhighlighter .line.alt2
 {
-	background-color: #0F192A !important;
+	background-color: #3f3f3f !important;
 }
 
 /* Highlighed line number */
 .syntaxhighlighter .line.highlighted .number
 {
-	background-color: #253E5A !important;
+	background-color: #121212 !important;
 	color: #fff !important;
 }
 
@@ -77,12 +77,12 @@
 .syntaxhighlighter .line.highlighted.alt1,
 .syntaxhighlighter .line.highlighted.alt2
 {
-	background-color: #253E5A !important;
+	background-color: #121212 !important;
 }
 
 .syntaxhighlighter .toolbar
 {
-	background-color: #0F192A !important;
+	background-color: #242424 !important;
 }
 
 .syntaxhighlighter .toolbar a
@@ -101,70 +101,77 @@
 .syntaxhighlighter .plain,
 .syntaxhighlighter .plain a
 { 
-	color: #D1EDFF !important;
+	color: #dcdccc !important;
 }
 
 .syntaxhighlighter .comments,
 .syntaxhighlighter .comments a
 { 
-	color: #428BDD !important;
+	color: #7f9f7f !important;
+	font-style: italic !important;
 }
 
 .syntaxhighlighter .string,
 .syntaxhighlighter .string a
 {
-	color: #1DC116 !important; 
+	color: #cc9393 !important; 
 }
 
 .syntaxhighlighter .keyword
 { 
-	color: #B43D3D !important; 
+	color: #f0dfaf !important; 
+	font-weight: bold !important;
 }
 
 .syntaxhighlighter .preprocessor 
 { 
-	color: #8AA6C1 !important; 
+	color: #ffcfaf !important; 
+	font-weight: bold !important;
 }
 
 .syntaxhighlighter .variable 
 { 
-	color: #FFAA3E !important; 
+	color: #c3bf9f !important; 
 }
 
 .syntaxhighlighter .value
 { 
-	color: #F7E741 !important; 
+	color: #8cd0d3 !important; 
+	font-weight: bold !important;
 }
 
 .syntaxhighlighter .functions
 { 
-	color: #FFAA3E !important; 
+	color: #efef8f !important; 
 }
 
 .syntaxhighlighter .constants
 { 
-	color: #E0E8FF !important; 
+	color: #dca3a3 !important; 
+	font-weight: bold !important;
 }
 
 .syntaxhighlighter .script
 { 
-	background-color: #404040 !important;
+	background-color: #ffcfaf !important;
+	color: #3f3f3f !important;
+	font-weight: bold !important;
 }
 
 .syntaxhighlighter .color1,
 .syntaxhighlighter .color1 a
 { 
-	color: #F8BB00 !important; 
+	color: #c0bed1 !important; 
 }
 
 .syntaxhighlighter .color2,
 .syntaxhighlighter .color2 a
 { 
-	color: #FFFFFF !important; 
+	color: #dfcfaf !important; 
 }
 
 .syntaxhighlighter .color3,
 .syntaxhighlighter .color3 a
 { 
-	color: #FFAA3E !important; 
+	color: #dca3a3 !important; 
 }
